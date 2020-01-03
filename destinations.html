@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html lang="en">
+   <!-- 
+      Final Project
+      CIT180-1001
+      Author: Chi Vu
+      File name: index.html
+      Date: 05/08/19
+      -->
+   <head>
+      <title>Visiting the United Kingdom</title>
+      <meta name="Author" content="Chi Vu">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script> 
+      <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+   </head>
+   <body>
+      <div class="skipnavigation">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+      </div>
+      <header>
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li class="current"><a href="destinations.html">Destination</a></li>
+               <li><a href="tips.html">Travel Tips</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="https://www.booking.com/" target="_blank">Booking</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div class="destinations">
+         <h1>Countries of the United Kingdom</h1>
+         <div id="contentstart">
+            <img src="images/UK_outline.jpg" alt="map of the countires in United Kingdom" usemap="#ukcountries" class="imagemap"> 
+            <p>Click the map for the country you would like to visit</p>
+         </div>
+         <map name="ukcountries">
+            <area coords="145,193,43" shape="circle" alt="Northern Ireland" href="#northernireland">
+            <area coords="136,277,220,362" shape="rect" alt="Wales" href="#wales">
+            <area coords="175,147,167,31,333,33,281,178,219,215" shape="poly" alt="Scotland" href="#scotland">
+            <area coords ="339,362,281,181,231,215,227,364,167,367,100,404,300,422" shape="poly" alt="England" href="#england">
+         </map>
+         <article id="countries">
+            <div class="description">
+               <h3 id="england">England</h3>
+               <figure>
+                  <img src="images/england.jpg" alt="UNESCO world heritage site Stonehenge in Wiltshire, England">
+                  <figcaption>Stonehenge/Photo Credit: <a href="https://www.campingintheforest.co.uk">Forest Camping UK</a></figcaption>
+               </figure>
+               <p>
+                  England is a country that is part of the United Kingdom.It shares land borders with Scotland to the north and Wales to the west. The Irish Sea lies northwest of England and the Celtic Sea lies to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south. The country covers five-eighths of the island of Great Britain, which lies in the North Atlantic, and includes over 100 smaller islands, such as the Isles of Scilly and the Isle of Wight.
+               </p>
+            </div>
+            <div class="description">
+               <h3 id="northernireland">Northern Ireland</h3>
+               <figure>
+                  <img src="images/northernireland.jpg" width="730" height="487" alt="columns of layered basalt, UNESCO world heritage site The Giant's Causeway in Northern Ireland">
+                  <figcaption>The Giant's Causeway/Photo Credit: <a href="http://baldnomad.com/photography/">Bald Nomad</a></figcaption>
+               </figure>
+               <p>
+                  Northern Ireland is a part of the United Kingdom in the north-east of the island of Ireland,variously described as a country, province or region. Northern Ireland shares a border to the south and west with the Republic of Ireland. In 2011, its population was 1,810,863, constituting about 30% of the island's total population and about 3% of the UK's population. Established by the Northern Ireland Act 1998 as part of the Good Friday Agreement, the Northern Ireland Assembly holds responsibility for a range of devolved policy matters, while other areas are reserved for the British government. Northern Ireland co-operates with the Republic of Ireland in some areas, and the Agreement granted the Republic the ability to "put forward views and proposals" with "determined efforts to resolve disagreements between the two governments".
+               </p>
+            </div>
+            <div class="description">
+               <h3 id="scotland">Scotland</h3>
+               <figure>
+                  <img src="images/scotland.jpg" width="730" height="487" alt="Scotish man playing bagpipe in front of greenery landscape ">
+                  <figcaption>The Great Highland Bagpipe/Photo Credit: <a href="https://www.flickr.com/photos/72486075@N00/">mike138</a></figcaption>
+               </figure>
+               <p>
+                  Scotland is a country that is part of the United Kingdom which covers the northern third of the island of Great Britain. It shares a border with England to the south, and is otherwise surrounded by the Atlantic Ocean, with the North Sea to the east and the North Channel and Irish Sea to the south-west. In addition to the mainland, the country has more than 790 islands,including the Northern Isles and the Hebrides.
+               </p>
+            </div>
+            <div class="description">
+               <h3 id=wales>Wales</h3>
+               <figure>
+                  <img src="images/wales.jpg" width="730" height="487" alt="light house in North Wales">
+                  <figcaption>Light House in North Wales/Photo Credit: unknown</figcaption>
+               </figure>
+               <p>
+                  Wales is a country that is part of the United Kingdom and the island of Great Britain. It is bordered by England to the east, the Irish Sea to the north and west, and the Bristol Channel to the south. It had a population in 2011 of 3,063,456 and has a total area of 20,779 km2 (8,023 sq mi). Wales has over 1,680 miles (2,700 km) of coastline and is largely mountainous, with its higher peaks in the north and central areas, including Snowdon (Yr Wyddfa), its highest summit. The country lies within the north temperate zone and has a changeable, maritime climate.
+               </p>
+            </div>
+         </article>
+      </div>
+      <footer>
+         <p id="contact">Chi Vu &#10148; CIT151&#8231;1001 &#10148; Beginning Web Development &#10148; Spring 2019</p>
+      </footer>
+   </body>

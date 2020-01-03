@@ -1,0 +1,385 @@
+/* 
+   Final Project 
+   CIT 180-1001
+   Author: Chi Vu
+   File name: styles.css
+   Date 05/08/2019
+*/
+
+
+/*body*/
+
+body {
+	font-family: Georgia, serif;
+	font-size: 16px;
+	color: #3F3F3F;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	max-width: 1050px;
+}
+
+
+/*header*/
+
+header {
+	background-color: rgba(28, 110, 164, 0.06);
+	padding-top: 10px;
+	min-height: 80px;
+}
+
+
+/*navigation bar*/
+
+header a {
+	color: rgba(70, 104, 83, 0.89);
+	font-size: 18px;
+	padding: 3px 0 3px 0;
+}
+
+header ul {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+header li {
+	display: inline;
+	padding: 0 25px 0 25px;
+}
+
+header nav {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+header a:hover,
+header a:focus {
+	color: rgba(132, 165, 143, 0.89);
+	font-weight: bold;
+}
+
+header .current a {
+	text-decoration: none;
+}
+
+
+/*skip navigation*/
+
+p.skipnavigation a {
+	position: absolute;
+	left: -10000px;
+}
+
+p.skipnavigation a:focus {
+	right: auto;
+	left: 1em;
+	top: 1em;
+	background-color: white;
+	color: rgba(70, 104, 83, 0.89);
+	z-index: 2;
+}
+
+
+/*article */
+
+.pagetitle h1,
+.destinations h1,
+#countries h3,
+.traveltips h1,
+#aboutme h1,
+.transports h3 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	color: rgba(70, 104, 83, 0.89);
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+
+.container {
+	min-height: 400px;
+	color: #ffffff;
+	background: #A9CA34 url("images/UKbackground.jpg") 0 -100px;
+	padding-top: 60px;
+	text-align: center;
+}
+
+#introduction {
+	text-align: center;
+	font-size: 20px;
+	background: rgba(28, 110, 164, 0.06);
+	border: 3px solid #98AA65;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+#introduction p {
+	line-height: 30px;
+	padding-top: 5px;
+}
+
+.accent,
+.highlight {
+	color: #ADCE2F;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+}
+
+.highlight {
+	font-size: 80px;
+}
+
+
+/*aside*/
+
+.sidebar {
+	padding: 30px 30px 70px 0;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 200px;
+}
+
+aside a:link {
+	color: #ffffff;
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+aside a:hover,
+aside a:focus {
+	color: #D0BD3F;
+	font-weight: 900;
+	text-decoration: underline;
+	text-shadow: 0 0 6px #082008;
+}
+
+aside a:visited {
+	color: #ffffff;
+}
+
+aside li {
+	list-style: circle;
+	display: inline;
+	padding: 0 25px 0 25px;
+}
+
+
+/*Destinations*/
+
+.destinations {
+	text-align: center;
+}
+
+.description {
+	background-color: rgba(28, 110, 164, 0.06);
+	padding: 10px 0 10px 0;
+	border: 5px solid #98AA65;
+	margin-top: 40px;
+}
+
+#countries h3 {
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+#countries p,
+.destinations p {
+	padding: 0 150px 0 150px;
+}
+
+
+/*Tips*/
+
+.traveltips h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	color: #415C38;
+}
+
+.extratips h3 {
+	font-size: 25px;
+	border: 2px dotted #98AA65;
+	color: #415C38;
+}
+
+.traveltips {
+	width: 50%;
+}
+
+.traveltips,
+.extratips {
+	display: inline-block;
+}
+
+.extratips {
+	padding: 20px;
+	font-size: 15px;
+	line-height: 40px;
+	background-color: rgba(28, 110, 164, 0.06);
+	text-align: center;
+	border: 3px solid #98AA65;
+	width: 40%;
+	float: right;
+	margin-top: 100px;
+	width: 30%;
+}
+
+.transports {
+	text-align: center;
+	border: 3px solid #98AA65;
+	padding: 20px;
+	background-color: rgba(28, 110, 164, 0.06);
+	margin-top: 10px;
+}
+
+ol li {
+	font-size: 20px;
+	color: #415C38;
+}
+
+ul img {
+	padding-bottom: 20px;
+}
+
+.harrypotter,
+.gameofthrones {
+	border-bottom: 2px dotted #98AA65;
+}
+
+.harrypotter {
+	padding-bottom: 10px;
+}
+
+
+/*table*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 2px dashed #98AA65;
+	margin: auto;
+}
+
+td,
+th {
+	border: 1px ridge #98AA65;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 5px;
+}
+
+
+/* About me */
+
+#aboutme {
+	margin-left: 10%;
+}
+
+img #aboutme {
+	float: left;
+	padding-left: 200px;
+}
+
+
+/* Contact */
+
+.contact {
+	font-family: Georgia, serif;
+}
+
+.contact h1,
+.contact p {
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	color: rgba(70, 104, 83, 0.89);
+	text-align: center;
+}
+
+.contact p {
+	font-size: 28px;
+}
+
+
+/*form style */
+
+fieldset {
+	margin-bottom: 5px;
+	border: 2px rgba(70, 104, 83, 0.89) dotted;
+}
+
+legend {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+label {
+	margin-right: 20px;
+}
+
+.contactinfo input {
+	margin-left: 50px;
+	width: 50%;
+	height: 25px;
+	margin-bottom: 1em;
+}
+
+#choose {
+	margin-left: 20px;
+	height: 3em;
+}
+
+#addressinput {
+	margin-left: 35px;
+}
+
+.button {
+	border: none;
+	text-align: center;
+}
+
+.button input {
+	margin-right: 20px;
+	border-radius: 25px;
+	font-size: 15px;
+	background-color: rgba(70, 104, 83, 0.89);
+	padding: 10px;
+	width: 10%;
+	font-weight: bold;
+}
+
+.button input:hover,
+.button input:focus {
+	background-color: white;
+	cursor: pointer;
+}
+
+
+/* footer */
+
+footer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(28, 110, 164, 0.06);
+	color: rgba(91, 94, 89, 0.9);
+	text-align: center;
+	position: relative;
+	clear: both;
+}
+
+@media(max-width: 768px) {
+	header,
+	#introduction,
+	aside,
+	footer,
+	nav,
+	img,
+	table,
+	.button input
+	 {
+		float: none;
+		width: 100%;
+	}
+}

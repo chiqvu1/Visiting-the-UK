@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="en">
+   <!-- 
+      Final Project
+      CIT180-1001
+      Author: Chi Vu
+      File name: index.html
+      Date: 05/08/19
+      -->
+   <head>
+      <title>Visiting the United Kingdom</title>
+      <meta name="Author" content="Chi Vu">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script> 
+      <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+   </head>
+   <body>
+      <div class="skipnavigation">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+      </div>
+      <header>
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="destinations.html">Destination</a></li>
+               <li><a href="tips.html">Travel Tips</a></li>
+               <li><a href="about.html">About</a></li>
+               <li class="current"><a href="contact.html">Contact</a></li>
+               <li><a href="https://www.booking.com/" target="_blank">Booking</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div class="contact">
+         <h1>Stay in touch</h1>
+         <p>If you have any questions, comments, concerns or just simply want to say hi, fill out the form below.</p>
+         <form action="userinfo.html">
+            <fieldset class="contactinfo">
+               <legend>Contact Information</legend>
+               <label for="nameinput">Name
+               <input name="name" type="text" id="nameinput" placeholder="Firstname and Lastname">
+               </label><br>
+               <label for="emailinput">Email
+               <input name="email" type="text" id="emailinput" placeholder="example@gmail.com">
+               </label><br>
+               <label for="addressinput">Address
+               <input name="address" type="text" id="addressinput" placeholder="123 Tree Street City State Zipcode Country">
+               </label><br>
+            </fieldset>
+            <fieldset class="aboutyourself">
+               <legend>Do you like to travel?</legend>
+               <label for="yes">
+               <input type="checkbox" id ="yes" name="yourinfo" value="Yes">
+               Yes
+               </label>
+               <label for="no">
+               <input type="checkbox" id="no" name="yourinfo" value="No">
+               No
+               </label>
+            </fieldset>
+            <fieldset class="frequencyinfo">
+               <legend>How often do you travel?</legend>
+               <label for="choose">
+                  Please select 
+                  <select id="choose" name="frequency">
+                     <option value="never">Never been out of the country before. Help!</option>
+                     <option value="frequent">Pretty Frequent</option>
+                     <option value="always">I travel for a living</option>
+                  </select>
+               </label>
+            </fieldset>
+            <fieldset class="reachout">
+               <legend>How would you like to stay in touch?</legend>
+               <label for="facebook">
+               <input type="radio" name="socialmedia" id="facebook" value="Facebook">Facebook
+               </label>
+               <label for="instagram">
+               <input type="radio" name="socialmedia" id="instagram" value="Instagram">Instagram
+               </label>
+               <label for="twitter">
+               <input type="radio" name="socialmedia" id="twitter" value="Twitter">Twitter
+               </label>
+               <label for="email">
+               <input type="radio" name="socialmedia" id="email" value="Email">Email
+               </label>
+               <label for="mail">
+               <input type="radio" name="socialmedia" id="mail" value="Mail">Send me letters through an owl
+               </label>
+            </fieldset>
+            <fieldset class="additionalinfo">
+               <legend>Message</legend>
+               <label for="comments">
+               <textarea name="comments" id="comments" rows="5" cols="70">
+               </textarea>
+               </label>
+            </fieldset>
+         </form>
+         <fieldset class="button">
+            <input type="submit" id="submit" value="Submit">
+            <input type="reset" id="reset" value="Reset">
+         </fieldset>
+      </div>
+      <footer>
+         <p id="contact">Chi Vu &#10148; CIT151&#8231;1001 &#10148; Beginning Web Development &#10148; Spring 2019</p>
+      </footer>
+   </body>
+</html>
